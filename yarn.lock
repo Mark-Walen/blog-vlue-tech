@@ -5962,11 +5962,6 @@ media-typer@0.3.0:
   resolved "https://registry.npmmirror.com/media-typer/-/media-typer-0.3.0.tgz"
   integrity sha512-dq+qelQ9akHpcOl/gUVRTxVIOkAJ1wR3QAvb4RsVjS8oVoFjDGTc679wJYmUmknUF5HwMLOgb5O+a3KxfWapPQ==
 
-memont@^0.0.0-underconstruction:
-  version "0.0.0-underconstruction"
-  resolved "https://registry.npmmirror.com/memont/-/memont-0.0.0-underconstruction.tgz"
-  integrity sha512-k4pRuQq7Q9L1r1/9MRi+wKsS2S7YItdUg1Qb6mH+OAUgI5XFbpDdOdkCi+N0zZ8+i/+hCYlYwZ9VJcJ/R1LFWQ==
-
 memory-fs@^0.4.1:
   version "0.4.1"
   resolved "https://registry.npmmirror.com/memory-fs/-/memory-fs-0.4.1.tgz"

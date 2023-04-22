@@ -15,7 +15,13 @@ module.exports = [
             {
                 text: 'BLE5 Stack',
                 ariaLabel: 'BLE5 Stack',
-                link: '/embedded-system/ble5-stack/'
+                items: [
+                    {
+                        text: 'TI-RTOS',
+                        ariaLabel: 'TI-RTOS',
+                        link: '/embedded-system/ble5-stack/ti-rtos/'
+                    }
+                ]
             },
             {
                 text: '电子通信协议',

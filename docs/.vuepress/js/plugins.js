@@ -1,12 +1,13 @@
 const moment = require('moment');
-const party = require('../vuepress-plugin-party')
+const party = require('../vuepress-plugin-party');
 
 module.exports = [
     ["vuepress-plugin-auto-sidebar", {
         title: {
             mode: "titlecase",
             map: {
-                "/program/data-structure/": "数据结构基础"
+                "/program/data-structure/": "数据结构基础",
+                "/embedded-system/ble5-stack/ti-rtos/": "TI-RTOS"
             }
         },
         sidebarDepth: 4,
