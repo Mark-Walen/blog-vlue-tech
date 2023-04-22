@@ -20,7 +20,7 @@ module.exports = [
     ['@vuepress/pwa', {
         ServiceWorker: true,
         updatePopup: {
-            message: "发现心内容可用",
+            message: "发现新内容可用",
             buttonText: "刷新"
         }
     }],
@@ -71,6 +71,7 @@ module.exports = [
     ['@vuepress/back-to-top'],
     ['@vuepress/nprogress'],
     [require('../vuepress-plugin-party', {
-        shapes: ['circle', 'roundedSquare', 'star']
+        shapes: ['circle', 'roundedSquare', 'star'],
+        zIndex: '-1'
     })]
 ]

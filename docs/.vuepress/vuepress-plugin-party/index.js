@@ -8,9 +8,10 @@ module.exports = (options = {}, ctx) => ({
         }, size = {
             min: 0.2,
             max: 1
-        }, shapes = ['circle'] } = options
+        }, shapes = ['circle'], zIndex = '-1'} = options
 
         return {
+            Z_INDEX: zIndex.value,
             MIN_COUNT: count.min,
             MAX_COUNT: count.max,
             MIN_SIZE: size.min,

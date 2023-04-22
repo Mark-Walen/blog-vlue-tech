@@ -21,6 +21,11 @@ module.exports = [
                 text: '电子通信协议',
                 ariaLabel: 'Electronic Communication Protocol',
                 link: '/embedded-system/ecp/'
+            },
+            {
+                text: 'STM32 入门学习',
+                ariaLabel: 'STM32 Learning Process.',
+                link: '/embedded-system/stm32/stm32-learning-process'
             }
         ]
     },
