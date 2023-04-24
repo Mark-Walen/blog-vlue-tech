@@ -1,1 +1,0 @@
-export const sidebarData = {"/en/demo/":[],"/en/posts/":[],"/embedded-system/rtos/ti-rtos/":["","creating_vs_constructing","queues","power_management","kernel_configuration","tasks","clocks","thread_synchronization"],"/embedded-system/rtos/freertos/":[""],"/program/data-structure/":["","linear-table","stack"]};
