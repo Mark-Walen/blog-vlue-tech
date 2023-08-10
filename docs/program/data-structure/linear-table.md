@@ -1,7 +1,7 @@
 # 线性表
 ## 单链表
 
-<img src="/assets/img/linear-table/traverse.gif" style="margin-top: 6px;">
+<img src="./assets/img/linear-table/traverse.gif" style="margin-top: 6px;">
 
 ### 存储结构
 
