@@ -1,5 +1,5 @@
 ---
-sidebarDepth: 4
+headerDepth: 4
 ---
 # Hello VuePress
 

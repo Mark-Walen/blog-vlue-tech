@@ -1,16 +1,42 @@
 ---
 home: true
-heroImage: /assets/img/bm-7.png
+icon: home
+title: 蓝芒小栈
+heroImage: /logo.png
+bgImage: /assets/images/27877.jpg
 heroText: 蓝芒小栈
 tagline: 获得一点灵感，就是一份收获。
-actionText: 快速上手 →
-actionLink: /guide/
-features:
-- title: 简洁至上
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-- title: Vue驱动
-  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-- title: 高性能
-  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
-  footer: MIT Licensed | Copyright © 2018-present Blue Monster
+heroFullScreen: true
+projects:
+  - icon: project
+    name: project name
+    desc: project detailed description
+    link: https://your.project.link
+
+  - icon: link
+    name: link name
+    desc: link detailed description
+    link: https://link.address
+
+  - icon: book
+    name: book name
+    desc: Detailed description of the book
+    link: https://link.to.your.book
+
+  - icon: article
+    name: article name
+    desc: Detailed description of the article
+    link: https://link.to.your.article
+
+  - icon: friend
+    name: friend name
+    desc: Detailed description of friend
+    link: https://link.to.your.friend
+
+  - icon: /logo.png
+    name: custom item
+    desc: Detailed description of this custom item
+    link: https://link.to.your.friend
+
+footer: customize your footer text
 ---

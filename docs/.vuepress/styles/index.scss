@@ -1,0 +1,12 @@
+// place your custom styles here
+@import './palette.scss';
+
+.blog-hero {
+    color: $theme-color-8;
+}
+
+html[data-theme=dark] {
+    a, .toc-link {
+        color: #EBF4FF;
+    }
+}

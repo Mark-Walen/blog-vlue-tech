@@ -1,6 +1,7 @@
 ---
-sidebarDepth: 4
+headerDepth: 4
 author: Mark Walen
+category: 数据结构
 ---
 # 栈
 

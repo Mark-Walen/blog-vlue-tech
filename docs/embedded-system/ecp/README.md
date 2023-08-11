@@ -1,6 +1,6 @@
 ---
-sidebar: auto
-sidebarDepth: 2
+sidebar: heading
+headerDepth: 2
 ---
 
 # 电子通信协议
