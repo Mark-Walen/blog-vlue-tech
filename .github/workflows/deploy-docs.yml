@@ -39,6 +39,8 @@ jobs:
       - name: Deploy Docs
         uses: JamesIves/github-pages-deploy-action@v4
         with:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           # This is the branch where the docs are deployed to
-          branch: gh-pages
+          REPOSITORY_NAME: mark-walen.github.io
+          branch: master
           folder: src/.vuepress/dist
