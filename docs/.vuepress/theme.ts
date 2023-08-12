@@ -102,8 +102,11 @@ export default hopeTheme({
     blog: true,
 
     comment: {
-      // @ts-expect-error: You should generate and use your own comment service
       provider: "Giscus",
+      repo: "Mark-Walen/blog-vlue-tech",
+      repoId: "R_kgDOHr6JNg",
+      category: "General",
+      categoryId: "DIC_kwDOHr6JNs4CWA7T"
     },
 
     // all features are enabled for demo, only preserve features you need here
