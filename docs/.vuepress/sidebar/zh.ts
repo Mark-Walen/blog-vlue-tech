@@ -49,5 +49,19 @@ export const zhSidebar = sidebar({
       text: "数据结构基础",
       children: "structure"
     },
+  ],
+  "/cas/": [
+    {
+      text: "操作系统导论",
+      prefix: "ostep/",
+      link: "ostep/",
+      children: [
+        {
+          text: "虚拟化",
+          prefix: "virtualization/",
+          children: "structure"
+        }
+      ]
+    }
   ]
 });

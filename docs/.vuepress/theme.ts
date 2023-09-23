@@ -27,13 +27,6 @@ export default hopeTheme({
       BiliBili: "https://space.bilibili.com/379967779?spm_id_from=333.788.0.0",
       Email: "mailto:mark_walen@qq.com",
       GitHub: "https://github.com/Mark-Walen",
-      Reddit: "https://example.com",
-      Rss: "https://example.com",
-      Twitter: "https://example.com",
-      Wechat: "https://example.com",
-      Weibo: "https://example.com",
-      Whatsapp: "https://example.com",
-      Youtube: "https://example.com",
       MrHope: ["https://mrhope.site", MR_HOPE_AVATAR],
     },
   },
@@ -67,7 +60,7 @@ export default hopeTheme({
     },
 
     /**
-     * Chinese locale config
+     * English locale config
      */
     "/en/": {
       // navbar
@@ -124,6 +117,7 @@ export default hopeTheme({
       imgSize: true,
       include: true,
       katex: true,
+      mathjax: true,
       mark: true,
       mermaid: true,
       playground: {
@@ -150,6 +144,7 @@ export default hopeTheme({
       tabs: true,
       vPre: true,
       vuePlayground: true,
+      footnote: true,
     },
 
     // uncomment these if you want a PWA
