@@ -39,11 +39,11 @@ typedef struct LNode
 
 <div style = "border: 1px solid">
     <ol>
-        <li>LinkedList与LNode*，两者本质上是等价的。</li>
-        <li>通常习惯上用LinkedList定义单链表</li>
-        <li>用LNode *定义指向单链表中任意结点的指针变量。</li>
-        <li>若定义LinkedList L，L为单链表的头指针；若定义LNode *p，则p为指向单链表中某个结点的指针。</li>
-        <li>单链表是由表头指针唯一确定的，因此单链表可以用头指针的名字来命名。</li>
+        <li style="margin: 0.375rem 0;">LinkedList与LNode*，两者本质上是等价的。</li>
+        <li style="margin: 0.375rem 0;">通常习惯上用LinkedList定义单链表</li>
+        <li style="margin: 0.375rem 0;">用LNode *定义指向单链表中任意结点的指针变量。</li>
+        <li style="margin: 0.375rem 0;">若定义LinkedList L，L为单链表的头指针；若定义LNode *p，则p为指向单链表中某个结点的指针。</li>
+        <li style="margin: 0.375rem 0;">单链表是由表头指针唯一确定的，因此单链表可以用头指针的名字来命名。</li>
     </ol>
 </div>
 
