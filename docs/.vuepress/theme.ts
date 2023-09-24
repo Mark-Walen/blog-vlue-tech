@@ -93,7 +93,7 @@ export default hopeTheme({
 
   plugins: {
     blog: true,
-
+    photoSwipe: true,
     comment: {
       provider: "Giscus",
       repo: "Mark-Walen/blog-vlue-tech",
