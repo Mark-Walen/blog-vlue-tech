@@ -6,7 +6,7 @@ description: CPU 需要限制程序的执行，若不限制程序的执行，程
 
 ## 思维导图
 
-![受限制的直接执行](/assets/img/ostep/%E7%AC%AC%206%20%E7%AB%A0%20%E5%8F%97%E9%99%90%E5%88%B6%E7%9A%84%E7%9B%B4%E6%8E%A5%E8%BF%90%E8%A1%8C.png)
+![受限制的直接执行](/assets/img/ostep/cpu-mechanism-mindmap.png)
 
 ## 引言
 
