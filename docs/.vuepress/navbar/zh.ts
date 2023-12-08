@@ -19,6 +19,12 @@ export const zhNavbar = navbar([
           { text: "TI-RTOS", icon: "OS", link: "rtos/ti-rtos/" },
           { text: "BLE5-Stack", icon: "bluetooth", link: "ble5-stack/" },
         ],
+      },
+      {
+        text: "ARM Cortex-M3",
+        children: [
+          { text: "权威指南", icon: "OS", link: "arm-v7" },
+        ],
       }
     ],
   },

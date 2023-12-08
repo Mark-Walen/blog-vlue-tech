@@ -15,6 +15,12 @@ export const zhSidebar = sidebar({
       prefix: "rtos/",
       link: "rtos/"
     },
+    {
+      text: "ARM Cortex-M3",
+      prefix: "arm-v7/",
+      link: "arm-v7/",
+      children: "structure"
+    },
   ],
   "/embedded-system/rtos/": [
     {
