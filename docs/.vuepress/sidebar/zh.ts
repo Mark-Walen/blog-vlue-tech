@@ -21,11 +21,23 @@ export const zhSidebar = sidebar({
       link: "arm-v7/",
       children: "structure"
     },
+    {
+      text: "电子通信协议",
+      icon: "api",
+      prefix: "ecp/",
+      link: "ecp/",
+    }
   ],
   "/embedded-system/rtos/": [
     {
       text: "实时操作系统",
       children: [
+        {
+          text: "简介",
+          prefix: "rtos/",
+          link: "/embedded-system/rtos/",
+          children: "structure"
+        },
         {
           text: "TI-RTOS 实时操作系统",
           prefix: "ti-rtos/",
@@ -37,6 +49,23 @@ export const zhSidebar = sidebar({
           prefix: "freertos/",
           link: "freertos/",
           children: "structure"
+        },
+      ]
+    }
+  ],
+  "/embedded-system/ecp/": [
+    {
+      text: "电子通信协议",
+      children: [
+        {
+          text: "简介",
+          prefix: "ecp/",
+          link: "/embedded-system/ecp/"
+        },
+        {
+          text: "串行外设接口 (SPI) 简介",
+          prefix: "spi/",
+          link: "spi/"
         },
       ]
     }

@@ -23,8 +23,14 @@ export const zhNavbar = navbar([
       {
         text: "ARM Cortex-M3",
         children: [
-          { text: "权威指南", icon: "OS", link: "arm-v7" },
+          { text: "权威指南", icon: "CPU", link: "arm-v7" },
         ],
+      },
+      {
+        text: "通信协议",
+        children: [
+          {text: "串行外设接口 (SPI)", icon: "plug", link: "ecp/spi"}
+        ]
       }
     ],
   },
