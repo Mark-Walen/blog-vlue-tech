@@ -168,13 +168,13 @@ CM3 使用如下术语来表示位带存储的相关地址
 
   对于 SRAM 位带区的某个比特，记它所在字节地址为 A,位序号为 n(0<=n<=7)，则该比特在别名区的地址为：
 
-  $\begin{aligned}AliasAddr&＝\text{0x22000000}+((A-\text{0x20000000})\times8+n)\times4\\&=\text{0x22000000}+(A-\text{0x20000000})\times32+n\times4\end{aligned}$
+  $\begin{aligned}AliasAddr&e\text{＝}\text{0x22000000}+((A-\text{0x20000000})\times8+n)\times4\\&\text{＝}\text{0x22000000}+(A-\text{0x20000000})\times32+n\times4\end{aligned}$
 
 * `0x40000000`-`0x400FFFFF`（片上外设区中的最低 1MB）
 
   对于片上外设位带区的某个比特，记它所在字节的地址为 A,位序号为 n(0<=n<=7)，则该比特在别名区的地址为：
 
-  $\begin{aligned}AliasAddr &＝ \text{0x42000000} + ((A-\text{0x40000000})\times8+n)\times4 \\&= \text{0x42000000} + (A-\text{0x40000000})\times32 + n\times4\end{aligned}$
+  $\begin{aligned}AliasAddr &\text{＝} \text{0x42000000} + ((A-\text{0x40000000})\times8+n)\times4 \\&\text{＝} \text{0x42000000} + (A-\text{0x40000000})\times32 + n\times4\end{aligned}$
 
 上式中，“4”表示一个字为 4 个字节，“8”表示一个字节中有 8 个比特。 
 
