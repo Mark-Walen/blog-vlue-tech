@@ -63,9 +63,14 @@ export const zhSidebar = sidebar({
           link: "/embedded-system/ecp/"
         },
         {
-          text: "串行外设接口 (SPI) 简介",
+          text: "串行外设接口 (SPI)",
           prefix: "spi/",
           link: "spi/"
+        },
+        {
+          text: "I2C 总线",
+          prefix: "iic/",
+          link: "iic/"
         },
       ]
     }

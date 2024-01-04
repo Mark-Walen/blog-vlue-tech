@@ -6,7 +6,9 @@
 }
 
 html[data-theme=dark] {
-    a, .toc-link {
+
+    a,
+    .toc-link {
         color: #EBF4FF;
     }
 }
@@ -14,4 +16,72 @@ html[data-theme=dark] {
 div[list] {
     text-align: center;
     font-weight: bold;
+}
+
+.theme-hope-content>h1::before, .theme-hope-content>h2::before, .theme-hope-content>h3::before, .theme-hope-content>h4::before, .theme-hope-content>h5::before, .theme-hope-content>h6::before {
+    color: #b4b4b4;
+}
+
+.theme-hope-content {
+    counter-reset: h2;
+}
+
+h1 {
+    counter-reset: h2;
+}
+
+h2 {
+    counter-reset: h3;
+}
+
+h3 {
+    counter-reset: h4;
+}
+
+h4 {
+    counter-reset: h5;
+}
+
+h5 {
+    counter-reset: h6;
+}
+
+.theme-hope-content h2:before {
+    counter-increment: h2;
+    content: counter(h2) ". ";
+}
+
+.theme-hope-content h3:before,
+h3.md-focus.md-heading:before {
+    /** override the default style for focused headings */
+    counter-increment: h3;
+    content: counter(h2) "." counter(h3) ". ";
+}
+
+.theme-hope-content h4:before,
+h4.md-focus.md-heading:before {
+    counter-increment: h4;
+    content: counter(h2) "." counter(h3) "." counter(h4) ". ";
+}
+
+.theme-hope-content h5:before,
+h5.md-focus.md-heading:before {
+    counter-increment: h5;
+    content: counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) ". "
+}
+
+.theme-hope-content h6:before,
+h6.md-focus.md-heading:before {
+    counter-increment: h6;
+    content: counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) "." counter(h6) ". "
+}
+
+hr.footnotes-sep {
+    border: none;
+}
+
+.footnotes {
+    .footnote-item:first-child {
+        padding-top: var(--navbar-height, 3.6rem);
+    }
 }
