@@ -10,7 +10,7 @@ export default hopeTheme({
 
   author: {
     name: "Mark Walen",
-    url: "https://mrhope.site",
+    // url: "https://mrhope.site",
   },
 
   iconAssets: "iconfont",

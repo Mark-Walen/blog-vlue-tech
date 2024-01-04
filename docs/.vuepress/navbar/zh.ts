@@ -29,7 +29,8 @@ export const zhNavbar = navbar([
       {
         text: "通信协议",
         children: [
-          {text: "串行外设接口 (SPI)", icon: "plug", link: "ecp/spi"}
+          {text: "串行外设接口 (SPI)", icon: "plug", link: "ecp/spi"},
+          {text: "I2C 总线", icon: "plug", link: "ecp/iic"}
         ]
       }
     ],
