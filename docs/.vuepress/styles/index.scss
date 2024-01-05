@@ -85,3 +85,14 @@ hr.footnotes-sep {
         padding-top: var(--navbar-height, 3.6rem);
     }
 }
+
+sub, sup {
+    position: relative;
+    font-size: 0.7em;
+    line-height: 0;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5rem;
+}
