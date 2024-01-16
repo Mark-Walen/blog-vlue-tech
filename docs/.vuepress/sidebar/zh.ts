@@ -28,6 +28,24 @@ export const zhSidebar = sidebar({
       link: "ecp/",
     }
   ],
+  "/embedded-system/ble5-stack/": [
+    {
+      text: "蓝牙协议栈",
+      children: [
+        {
+          text: "简介",
+          prefix: "ble5-stack/",
+          link: "/embedded-system/ble5-stack/",
+          children: "structure"
+        },
+        {
+          text: "物理层",
+          prefix: "phy",
+          link: "phy_layer"
+        },
+      ]
+    }
+  ],
   "/embedded-system/rtos/": [
     {
       text: "实时操作系统",
