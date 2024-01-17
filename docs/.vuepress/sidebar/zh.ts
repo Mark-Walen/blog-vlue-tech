@@ -26,6 +26,12 @@ export const zhSidebar = sidebar({
       icon: "api",
       prefix: "ecp/",
       link: "ecp/",
+    },
+    {
+      text: "STM32",
+      icon: "cpu",
+      prefix: "stm32/",
+      link: "stm32/",
     }
   ],
   "/embedded-system/ble5-stack/": [
@@ -42,6 +48,11 @@ export const zhSidebar = sidebar({
           text: "物理层",
           prefix: "phy",
           link: "phy_layer"
+        },
+        {
+          text: "链路层",
+          prefix: "ll",
+          link: "link_layer"
         },
       ]
     }
