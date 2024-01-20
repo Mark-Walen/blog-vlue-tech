@@ -234,11 +234,11 @@ PAwR 与 PADVB 不同之处：
 
 每个PAwR事件包含多个子事件，在子事件期间传输广告数据包。主机配置每个事件的子事件数量，最多为128个。每个周期广告子事件间隔 ms 开始一个子事件。主机（HOST）使用 HCI 命令 `HCI_LE_Set_Periodic_Advertising_Parameters` V2（或更高版本），配置每个事件的子事件数量和周期广播子事件间隔。
 
-![PAwR events and subevents](D:\blog\VueProject\blue-stack\docs\embedded-system\ble5-stack\img\ll_pawr_ese.png "图 20. PAwR 事件与子事件")
+![PAwR events and subevents](./img/ll_pawr_ese.png "图 20. PAwR 事件与子事件")
 
 在每个子事件中，广播者传输一个数据包，通常包含一个 AUX_SYNC_SUBEVENT_IND PDU，但也可能包含一个 AUX_CONNECT_REQ PDU。在延迟（称为周期广告响应时隙延迟）之后，一系列时间时隙在同一子事件中被保留，用于接收观察者设备的响应。对AUX_SYNC_SUBEVENT_IND PDU 的响应发送在 AUX_SYNC_SUBEVENT_RSP PDU 中。主机通过 HCI 命令 `HCI_LE_Set_Periodic_Advertising_Parameters` 配置所需的响应时隙数量。图 21 说明了 PAwR 子事件的结构。
 
-![A PAwR subevent with response slots](D:\blog\VueProject\blue-stack\docs\embedded-system\ble5-stack\img\ll_pawr_se_wrs.png "图 21. PAwR 有响应时间间隙的子事件")
+![A PAwR subevent with response slots](./img/ll_pawr_se_wrs.png "图 21. PAwR 有响应时间间隙的子事件")
 
 #### 同步建立
 
