@@ -106,20 +106,15 @@ export const zhSidebar = sidebar({
   ],
   "/program/": [
     "",
-    "c/",
+    "c/"
+  ],
+  "/cas/": [
     {
       text: "数据结构基础",
       prefix: "data-structure/",
-      link: "data-structure/"
-    }
-  ],
-  "/program/data-structure/": [
-    {
-      text: "数据结构基础",
+      link: "data-structure/",
       children: "structure"
     },
-  ],
-  "/cas/": [
     {
       text: "操作系统导论",
       prefix: "ostep/",

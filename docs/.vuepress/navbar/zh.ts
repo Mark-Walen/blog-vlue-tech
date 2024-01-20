@@ -41,7 +41,6 @@ export const zhNavbar = navbar([
     prefix: "/program/",
     children: [
       { text: "C 语言", icon: "c", link: "C/" },
-      { text: "数据结构", icon: "structure", link: "data-structure/" },
     ],
   },
   {
@@ -49,6 +48,7 @@ export const zhNavbar = navbar([
     icon: "computer",
     prefix: "/cas/",
     children: [
+      { text: "数据结构", icon: "structure", link: "data-structure/" },
       { text: "操作系统导论", icon: "OS", link: "ostep/" },
     ],
   }
