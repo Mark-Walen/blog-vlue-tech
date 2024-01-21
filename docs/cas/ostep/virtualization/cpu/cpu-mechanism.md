@@ -6,7 +6,7 @@ description: CPU 需要限制程序的执行，若不限制程序的执行，程
 
 ## 思维导图
 
-![受限制的直接执行](/assets/img/ostep/cpu-mechanism-mindmap.png)
+![受限制的直接执行](./img/cpu-mechanism-mindmap.png)
 
 ## 引言
 
@@ -86,7 +86,7 @@ subgraph E[程序]
 * 在第一个阶段（在引导时），内核初始化陷阱表，并且 CPU 会记住它的位置以供后续使用。内核通过一条特权指令来完成这个操作。
 * 在第二阶段（运行进程时），内核在开始执行进程之前设置了一些东西（例如，在进程列表上分配一个节点，分配内存）；然后使用从陷阱返回指令来启动进程的执行；这将把CPU切换到用户模式并开始运行进程。
 
-![LDE Protocol](/assets/img/ostep/受限制的执行协议x2.png "图 6.2.1 受限制的执行协议"){height="1080px"}
+![LDE Protocol](./img/受限制的执行协议x2.png "图 6.2.1 受限制的执行协议"){height="1080px"}
 
 ## 6.3 问题 2：切换进程
 

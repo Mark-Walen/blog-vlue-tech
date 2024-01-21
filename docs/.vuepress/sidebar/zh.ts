@@ -119,11 +119,29 @@ export const zhSidebar = sidebar({
       text: "操作系统导论",
       prefix: "ostep/",
       link: "ostep/",
+    }
+  ],
+  "/cas/ostep/": [
+    {
+      text: "操作系统导论",
       children: [
         {
           text: "虚拟化",
           prefix: "virtualization/",
-          children: "structure"
+          children: [
+            {
+              text: "CPU 虚拟化",
+              prefix: "cpu/",
+              link: "cpu/processes",
+              children: "structure"
+            },
+            {
+              text: "内存虚拟化",
+              prefix: "memory/",
+              link: "memory/vm-intro",
+              children: "structure"
+            },
+          ]
         }
       ]
     }
