@@ -16,7 +16,6 @@ export const zhNavbar = navbar([
       {
         text: "蓝牙协议栈",
         children: [
-          { text: "TI-RTOS", icon: "OS", link: "rtos/ti-rtos/" },
           { text: "BLE5-Stack", icon: "bluetooth", link: "ble5-stack/" },
         ],
       },
