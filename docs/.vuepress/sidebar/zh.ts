@@ -52,7 +52,8 @@ export const zhSidebar = sidebar({
         {
           text: "链路层",
           prefix: "ll",
-          link: "link_layer"
+          link: "ll",
+          children: "structure"
         },
       ]
     }
